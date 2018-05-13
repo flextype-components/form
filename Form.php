@@ -12,6 +12,8 @@
 
 namespace Flextype\Component\Form;
 
+use Flextype\Component\Html\Html;
+
 class Form
 {
     /**
