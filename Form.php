@@ -164,7 +164,7 @@ class Form
         // Set the input type
         $attributes['type'] = 'file';
 
-        return Form::input($name, null, $attributes);
+        return Form::input($name, '', $attributes);
     }
 
     /**
@@ -179,7 +179,7 @@ class Form
      * @uses   Form::input
      * @return string
      */
-    public static function checkbox($name, $value = null, $checked = false, array $attributes = null)
+    public static function checkbox($name, $value = '', $checked = false, array $attributes = null)
     {
         // Set the input type
         $attributes['type'] = 'checkbox';
@@ -204,7 +204,7 @@ class Form
      * @uses   Form::input
      * @return string
      */
-    public static function radio($name, $value = null, $checked = null, array $attributes = null)
+    public static function radio($name, $value = '', $checked = null, array $attributes = null)
     {
         // Set the input type
         $attributes['type'] = 'radio';
